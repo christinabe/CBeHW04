@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7EAB97401E4F86D00014E9E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB973F1E4F86D00014E9E6 /* AppDelegate.swift */; };
-		7EAB97421E4F86D00014E9E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB97411E4F86D00014E9E6 /* ViewController.swift */; };
+		7EAB97421E4F86D00014E9E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB97411E4F86D00014E9E6 /* DetailViewController.swift */; };
 		7EAB97451E4F86D00014E9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB97431E4F86D00014E9E6 /* Main.storyboard */; };
 		7EAB97471E4F86D00014E9E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB97461E4F86D00014E9E6 /* Assets.xcassets */; };
 		7EAB974A1E4F86D00014E9E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EAB97481E4F86D00014E9E6 /* LaunchScreen.storyboard */; };
+		7EAB97521E4F88300014E9E6 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB97511E4F88300014E9E6 /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EAB973C1E4F86D00014E9E6 /* To Do List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To Do List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAB973F1E4F86D00014E9E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EAB97411E4F86D00014E9E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EAB97411E4F86D00014E9E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7EAB97441E4F86D00014E9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EAB97461E4F86D00014E9E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EAB97491E4F86D00014E9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EAB974B1E4F86D00014E9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAB97511E4F88300014E9E6 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				7EAB973F1E4F86D00014E9E6 /* AppDelegate.swift */,
-				7EAB97411E4F86D00014E9E6 /* ViewController.swift */,
+				7EAB97411E4F86D00014E9E6 /* DetailViewController.swift */,
 				7EAB97431E4F86D00014E9E6 /* Main.storyboard */,
+				7EAB97511E4F88300014E9E6 /* ToDoTableViewController.swift */,
 				7EAB97461E4F86D00014E9E6 /* Assets.xcassets */,
 				7EAB97481E4F86D00014E9E6 /* LaunchScreen.storyboard */,
 				7EAB974B1E4F86D00014E9E6 /* Info.plist */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EAB97421E4F86D00014E9E6 /* ViewController.swift in Sources */,
+				7EAB97421E4F86D00014E9E6 /* DetailViewController.swift in Sources */,
+				7EAB97521E4F88300014E9E6 /* ToDoTableViewController.swift in Sources */,
 				7EAB97401E4F86D00014E9E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +267,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47T83WP8UV;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it-s-lit.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 47T83WP8UV;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "it-s-lit.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
